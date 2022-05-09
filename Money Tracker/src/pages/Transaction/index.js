@@ -1,17 +1,6 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 
-const Transaction = () => {
-  return (
-    <View style={styles.page}>
-      <View style={styles.contentWrapper}>
-        <Text>Masih kosong :v</Text>
-      </View>
-    </View>
-  );
-};
-
-export default Transaction;
 
 const styles = StyleSheet.create({
   page: {
@@ -25,3 +14,16 @@ const styles = StyleSheet.create({
     marginTop: 24,
   },
 });
+
+const Transaction = () => {
+  return (
+    <View style={styles.page}>
+      <View style={styles.contentWrapper}>
+        <Text>Masih kosong :v</Text>
+      </View>
+    </View>
+  );
+};
+
+export default Transaction;
+
